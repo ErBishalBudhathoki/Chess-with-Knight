@@ -1,8 +1,7 @@
 #app {
   display: grid;
   place-content: center;
-
-  height: 105vh;
+  height: 100%;
   background-color: antiquewhite;
 }
 
