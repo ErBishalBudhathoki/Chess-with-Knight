@@ -1,0 +1,24 @@
+import './tile.css';
+
+interface Props {
+    number: number
+    image?: string;
+}
+export default function Tile({number, image}: Props) {
+    if (number % 2 === 0) {
+        return (
+            <div id = "blackTile" className="tiles black-tile">
+                {image && <div style={{backgroundImage: `url(${image}`}} className="chess-piece"></div>}
+            </div>
+        );
+
+    } else
+    {
+        return (
+            <div className="tiles white-tile">
+                {image && <div style={{backgroundImage: `url(${image}`}} className="chess-piece"></div>}
+            </div>
+        );
+    }
+
+}
