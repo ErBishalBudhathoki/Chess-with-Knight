@@ -4,6 +4,7 @@ A complete 8 * 8 chessboard with randomly generating knight and target. Knight m
 
 Start Game button will reload/restart the game where as you can see the possible moves that can be made by the Knight by selecting the Help button.
 
+Play here: https://chess-knight-target-game.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/35174206/157190973-b3031688-6961-4ac0-a9a4-2ca89178ee12.png)
 
