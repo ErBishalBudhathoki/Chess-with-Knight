@@ -1,3 +1,14 @@
+# About Game
+
+A complete 8 * 8 chessboard with randomly generating knight and target. Knight must reach the target to win.
+
+Start Game button will reload/restart the game where as you can see the possible moves that can be made by the Knight by selecting the Help button.
+
+
+![image](https://user-images.githubusercontent.com/35174206/157190973-b3031688-6961-4ac0-a9a4-2ca89178ee12.png)
+
+![image](https://user-images.githubusercontent.com/35174206/157191916-bffbed8e-f238-403b-9cbb-e790b3c8e038.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
