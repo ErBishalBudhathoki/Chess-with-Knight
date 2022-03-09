@@ -1,3 +1,15 @@
+# About Game
+
+A complete 8 * 8 chessboard with randomly generating knight and target. Knight must reach the target to win.
+
+Start Game button will reload/restart the game where as you can see the possible moves that can be made by the Knight by selecting the Help button.
+
+Play here: https://chess-knight-target-game.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/35174206/157190973-b3031688-6961-4ac0-a9a4-2ca89178ee12.png)
+
+![image](https://user-images.githubusercontent.com/35174206/157191916-bffbed8e-f238-403b-9cbb-e790b3c8e038.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -40,6 +52,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
+
+This is just a demo but with small screen its not performing optimally. For now check here:
+https://chess-knight-target-game.herokuapp.com/
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
