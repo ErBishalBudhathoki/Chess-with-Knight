@@ -1,7 +1,8 @@
 FROM node:18-slim AS build
+ARG PUBLIC_URL=/
 WORKDIR /app
 ENV NODE_OPTIONS=--openssl-legacy-provider
-ENV PUBLIC_URL=.
+ENV PUBLIC_URL=$PUBLIC_URL
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY tsconfig.json ./
