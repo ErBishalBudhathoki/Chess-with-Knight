@@ -21,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:dev": "dotenv -e .env.development react-scripts build",
-    "preinstall": "node preinstall.js"
+    "build:dev": "dotenv -e .env.development react-scripts build"
   },
   "eslintConfig": {
     "extends": [
