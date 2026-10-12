@@ -8,7 +8,7 @@ export default function Tile({number, image}: Props) {
     if (number % 2 === 0) {
         return (
             <div id = "blackTile" className="tiles black-tile">
-                {image && <div style={{backgroundImage: `url(${image}`}} className="chess-piece"></div>}
+                {image && <div style={{backgroundImage: `url(${image})`}} className="chess-piece"></div>}
             </div>
         );
 
@@ -16,7 +16,7 @@ export default function Tile({number, image}: Props) {
     {
         return (
             <div className="tiles white-tile">
-                {image && <div style={{backgroundImage: `url(${image}`}} className="chess-piece"></div>}
+                {image && <div style={{backgroundImage: `url(${image})`}} className="chess-piece"></div>}
             </div>
         );
     }

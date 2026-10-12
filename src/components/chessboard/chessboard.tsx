@@ -55,8 +55,8 @@ let targetC = between()
 let targetD = between()
 
 //push knight and target
-initialBoardState.push({ image: "../assets/images/knight_b.png", x: a, y: b, type: pieceType.Knight})
-initialBoardState.push({ image: "../assets/images/target.png", x: targetC, y: targetD, type: pieceType.Target})
+initialBoardState.push({ image: `${process.env.PUBLIC_URL}/assets/images/knight_b.png`, x: a, y: b, type: pieceType.Knight})
+initialBoardState.push({ image: `${process.env.PUBLIC_URL}/assets/images/target.png`, x: targetC, y: targetD, type: pieceType.Target})
 
 const rules = new Rules()
 let xa= 0, ya = 0;
